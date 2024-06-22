@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Error Handling</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"
+    />
+    <style>
+      body {
+        margin: 30px;
+        color: #333;
+      }
+      h1,
+      h2 {
+        text-align: center;
+      }
+      h1 {
+        color: blue;
+      }
+      h2 {
+        color: green;
+      }
+      ul {
+        list-style-type: none;
+      }
+      hr {
+        background-color: black;
+        height: 1px;
+      }
+    </style>
+    <!-- <script src="./index.js" defer></script> -->
+  </head>
+  <body>
+    <h1>Error Handling</h1>
+    <h2>Try, Catch, Finally</h2>
+    <p>
+      Error = An Object that is created to represent a problem that occurs.
+      Usually occurs with user input or establishing a connection
+    </p>
+    <p>try { } = Encloses code that might potentially cause an error.</p>
+    <p>catch { } = Catch and handle any thrown Errors from try { }.</p>
+    <p>finally { } = (optional) Always executes. Used mostly for clean up.</p>
+    <hr />
+    <h3>Errors</h3>
+    <ul>
+      <li>Network Errors</li>
+      <li>Promise Rejections</li>
+      <li>Security Errors</li>
+    </ul>
+    <h3>Finally</h3>
+    <ul>
+      <li>Close Files</li>
+      <li>Close Connections</li>
+      <li>Release Resources</li>
+    </ul>
+  </body>
+  <hr />
+  <footer>
+    Resource:
+    <a rel="stylesheet" href="https://youtu.be/NwoAZF66_Go" target="_blank"
+      >BroCode</a
+    >
+  </footer>
+</html>
